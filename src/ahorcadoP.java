@@ -6,8 +6,7 @@ public class ahorcadoP {
 		Scanner teclado=new Scanner(System.in);
 		//Juego del ahorcado 
 		String palabra;int cont=0;int contP=0;int contG=0;boolean ganador=false;boolean salir=false;boolean okP = false;int vida=3;
-		//System.out.println("Introduce palabra:");
-		//palabra=teclado.nextLine();
+		
 		palabra="donetes";
 		char[] pal=palabra.toCharArray();
 		char[] arrJ=new char[pal.length];
